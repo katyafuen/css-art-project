@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <style>
+      body {
+        padding: 20px;
+        background-color: silver;
+      }
+    </style>
   </head>
   <body>
     <div class="house">
@@ -12,5 +18,12 @@
         <div class="arrow-up"></div>
       </div>
     </div>
+    <form action="submitted.html" class="form" style="color: darkslategrey">
+      <label for="fname">Name:</label><br />
+      <input type="fname" id="name" name="fname" /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="fname" /><br />
+      <input type="submit" style="color: darkslategrey" value="Submit" />
+    </form>
   </body>
 </html>

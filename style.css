@@ -1,5 +1,4 @@
 body {
-  background-color: silver;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,6 +11,7 @@ body {
   height: 200px;
   width: 200px;
   position: relative;
+  z-index: 1;
 }
 
 .arrow-up {
@@ -26,4 +26,13 @@ body {
   left: 0;
   right: 0;
   margin: auto;
+  z-index: 1;
+}
+
+.form {
+  margin: 30px;
+}
+
+.thank-you-block {
+  text-align: center;
 }
